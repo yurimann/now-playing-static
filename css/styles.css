@@ -196,6 +196,8 @@ figure {
   margin: 0;
 }
 
+
+
 @media (min-width:768px) {
   main {
     float: right;
@@ -243,4 +245,52 @@ figure {
     width: 100%;
   }
 
+}
+
+@media (min-width:992px) {
+  header.site-header {
+    padding-left: 1.5em;
+    padding-top: .5em;
+  }
+
+  article.movie {
+      float: left;
+      width: 33%;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  img.movie-backdrop {
+      display: none;
+  }
+
+  img.movie-poster{
+    display:inline-block;
+  }
+
+  article.movie:first-child .movie-image .movie-backdrop {
+    display: block;
+  }
+
+  main > article:first-child .movie-backdrop {
+    display: block;
+  }
+
+  article.movie:first-child .movie-image .movie-poster {
+    display: none;
+  }
+
+  article.movie:first-child {
+    width: 100%;
+  }
+
+  article.movie:first-child .movie-image .movie-details {
+    display: block;
+  }
+
+  article.movie:first-child .movie-details .movie-overview {
+    display: inline;
+  }
 }
