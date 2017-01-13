@@ -195,3 +195,52 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media (min-width:768px) {
+  main {
+    float: right;
+    width: 89%;
+}
+
+  header.site-header {
+      position: fixed;
+  }
+
+  ul.site-nav-list {
+      padding-left: 0em;
+  }
+
+  footer.site-footer {
+      clear: both;
+  }
+
+  ul.footer-nav-list {
+      /* float: left; */
+      /* color: white; */
+  }
+
+  section.about {
+  }
+
+  nav.footer-nav {
+      float: left;
+      color: white;
+  }
+
+  .movie-overview{
+    display: inline;
+  }
+
+  .site-logo {
+    position: static;
+  }
+  .site-nav {
+    position: static;
+  }
+
+  .site-nav-item {
+    float: none;
+    width: 100%;
+  }
+
+}
